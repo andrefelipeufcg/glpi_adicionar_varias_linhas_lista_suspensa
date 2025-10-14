@@ -40,7 +40,7 @@
 
       // Handler memoriza o índice de partida
       btn.addEventListener('click', async () => {
-        const texto = prompt('Cole cada opção em uma nova linha:');
+        const texto = prompt('Cole as opções que deseja adicionar abaixo:');
         if (!texto) return;
         const linhas = texto.split('\n').map(l => l.trim()).filter(l => l);
         if (!linhas.length) return;
@@ -56,7 +56,7 @@
           const campo = campos[idx + i] || campos[campos.length - 1];
           if (!campo) break;
 
-          // Cola inteira
+          // Cola palavra inteira
           campo.focus();
           campo.value = linhas[i];
           campo.dispatchEvent(new Event('input', { bubbles: true }));

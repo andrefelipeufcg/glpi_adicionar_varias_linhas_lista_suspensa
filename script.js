@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net
 // @version      1.0
 // @description  Cola várias linhas em uma lista de inputs, iniciando no input onde o botão foi clicado
-// @author       Você
+// @author       Andre Felipe
 // @match        *://*/*
 // @grant        none
 // @run-at       document-idle
@@ -17,7 +17,7 @@
     return new Promise(resolve => setTimeout(resolve, ms));
   }
 
-  // Insere um botão “Colar Rápido” ao lado de cada input placeholder="Insira uma opção"
+  // Insere um botão “Colar Várias Linhas” ao lado de cada input placeholder="Insira uma opção"
   function criarBotoes() {
     document.querySelectorAll('input[placeholder="Insira uma opção"]').forEach((input, idx) => {
       if (input.nextElementSibling?.classList.contains('tm-colar-btn')) return;
@@ -72,7 +72,7 @@
         }
 
         btn.disabled = false;
-        btn.textContent = '⚡ Colar Rápido';
+        btn.textContent = 'Colar Várias Linhas';
       });
 
       // Insere o botão após o input

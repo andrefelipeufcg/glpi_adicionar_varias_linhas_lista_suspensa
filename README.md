@@ -1,9 +1,9 @@
 # glpi_adicionar_varias_linhas_lista_suspensa
 
-Script para **automatizar a inserção de várias linhas em campos do tipo "lista suspensa" no GLPI 11**, evitando trabalho manual e tornando a experiência mais rápida.
+Script para **automatizar a inserção de várias linhas em questões do tipo "lista suspensa" no GLPI 11**, evitando trabalho manual e tornando a experiência mais rápida.
 
-> Na versão 11 do GLPI, o formulário é nativo e o campo do tipo "lista suspensa" (equivalente ao tipo "Selecionar" do GLPI 10) não aceita multi-colagem: ao colar texto, todas as opções ficam juntas em uma única linha.  
-> Este script adiciona um botão “Colar Várias Linhas” em cada opção, permitindo adicionar rapidamente várias linhas ao campo.
+> Na versão 11 do GLPI, o formulário é nativo e a questão do tipo "lista suspensa" (equivalente à do tipo "Selecionar" do GLPI 10) não aceita multi-colagem: ao colar texto, todas as opções ficam juntas em uma única linha.  
+> Este script adiciona um botão “Colar Várias Linhas” em cada opção, permitindo adicionar rapidamente várias linhas à questão.
 
 ### Pré-requisitos
 
@@ -28,7 +28,7 @@ Copie todas as opções que deseja adicionar de um bloco de notas, como no exemp
 
 #### 3. Abra o formulário no GLPI
 
-Crie um campo do tipo “lista suspensa”, ou acesse um já existente onde deseja adicionar várias opções.  
+Crie uma questão do tipo “lista suspensa”, ou acesse uma já existente onde deseja adicionar várias opções.  
 
 ---
 
@@ -58,7 +58,7 @@ O script irá adicionar cada linha como uma opção na lista. Aguarde o preenchi
 
 ![fig5](imagens/fig5.png)
 
-Ao final, o campo do tipo "lista suspensa" estará dessa forma, preenchido com todas as opções.  
+Ao final, a questão do tipo "lista suspensa" estará dessa forma, preenchida com todas as opções.  
 
 Para adicionar mais opções, repita o processo.
 
@@ -66,5 +66,5 @@ Para adicionar mais opções, repita o processo.
 
 ## Observações
 
-- O script funciona para qualquer campo do tipo "lista suspensa" compatível no GLPI versão 11.
+- O script funciona para qualquer questão do tipo "lista suspensa" compatível no GLPI versão 11.
 - Se precisar adicionar centenas de linhas, tenha paciência 😉.

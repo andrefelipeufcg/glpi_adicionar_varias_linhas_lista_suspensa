@@ -44,11 +44,11 @@ O botão aparece ao lado dos campos que permitem adicionar opções, conforme ab
 
 Ao clicar no botão, aparecerá uma caixa para colar o texto, conforme figura abaixo:
 
-![fig3](imagens/fig3.png)
+![figura 3](imagens/fig3.png)
 
 Cole as opções e elas ficarão na caixa de texto conforme a figura abaixo. Clique em OK.
 
-![fig4](imagens/fig4.png)
+![figura 4](imagens/fig4.png)
 
 ---
 
@@ -56,7 +56,7 @@ Cole as opções e elas ficarão na caixa de texto conforme a figura abaixo. Cli
 
 O script irá adicionar cada linha como uma opção na lista. Aguarde o preenchimento ser concluído. 
 
-![fig5](imagens/fig5.png)
+![figura 5](imagens/fig5.png)
 
 Ao final, a questão do tipo "lista suspensa" estará dessa forma, preenchida com todas as opções.  
 
